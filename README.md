@@ -7,31 +7,7 @@ Rather than relying only on Scikit-Learn's built-in models, the project implemen
 
 The primary objective is not only to build a prediction model but also to understand **how machine learning models learn their parameters** through iterative optimization.
 
-
-                    Linear Regression Optimization
-
-                          Salary Dataset
-                                │
-                                ▼
-                      Train / Test Split
-                                │
-                                ▼
-                       Feature Standardization
-                                │
-          ┌─────────────────────┼──────────────────────┐
-          ▼                     ▼                      ▼
- LinearRegression          Batch GD              SGD (Scratch)
-      (Sklearn)            (Scratch)              (Scratch)
-          │                     │                      │
-          └──────────────┬──────┴──────────────┬───────┘
-                         ▼                     ▼
-                 Mini-Batch GD          Sklearn SGD
-                    (Scratch)
-                         │
-                         ▼
-             Compare R² • Loss • Time • Parameters
-
-
+<img width="559" height="462" alt="Screenshot 2026-07-01 at 12 06 19 PM" src="https://github.com/user-attachments/assets/33e19e07-4ace-4d48-97b7-573b6106940c" />
 
 ## Business Problem
 
